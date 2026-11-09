@@ -1,0 +1,40 @@
+# Python build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Environment and ESP install (created by the setup steps)
+/.venv
+/ESP129
+/downloads/
+
+# Run output
+/output/
+cases/*/output/
+bridge_*.msh
+adapted*.vtk
+
+# Numba cache files
+*.nbi
+*.nbc
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Editor files
+*~
+*.swp
+.vscode/
+.idea/
+.DS_Store

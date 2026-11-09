@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amac-3d"
+version = "0.1.0"
+license = "LGPL-2.1-only"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy",
+    "scipy",
+    "numba",
+    "llvmlite",
+    "tbb",
+    "matplotlib",
+]
+

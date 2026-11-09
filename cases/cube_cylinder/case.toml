@@ -1,0 +1,19 @@
+[input]
+geometry = "input/geometry/cube.geo"
+mesh_prev = "input/mesh/cube1241.vol"
+mesh = "input/mesh/cube1241.vol"
+metric = "input/metric/cylinder.sol"
+
+[adapt]
+iterations = 20
+enable_swap = true
+bridge_format = "msh"
+collapse_sweeps = 30
+show_collapse_rejections = false
+show_split_rejections = false
+
+[run]
+output_dir = "output"
+output_name = "cube_cylinder_adapted"
+output_format = "vtk"
+log_file = "adaptation.log"
